@@ -7,7 +7,7 @@
 ## Command Install :
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/kenz-developer/auto-instal/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/alzzhosting/Auto-Installer-Theme/main/install.sh)
 ```
 
 ## Fitur Tools :
