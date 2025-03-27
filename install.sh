@@ -87,8 +87,9 @@ install_theme() {
     echo "1. stellar"
     echo "2. billing"
     echo "3. enigma"
+    echo "4. darknette"
     echo "x. kembali"
-    echo -e "masukan pilihan (1/2/3/x) :"
+    echo -e "masukan pilihan (1/2/3/4/x) :"
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
@@ -103,6 +104,10 @@ install_theme() {
         THEME_URL=$(echo -e "https://github.com/alzzhosting/Auto-Installer-Theme/raw/main/enigma.zip")
         break
         ;; 
+      4)
+        THEME_URL=$(echo -e "https://github.com/alzzhosting/Auto-Installer-Theme/raw/main/darkenate-2.0.2.zip") 
+        break
+        ;;
       x)
         return
         ;;
